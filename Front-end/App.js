@@ -3,45 +3,10 @@ let web3;
 let contract;
 
 // Replace with your deployed contract address
-const contractAddress = "0x958035075ba46c7c2aA782490Bced2fE92E2DB90";
+const contractAddress = "";
 
 // Replace this with your actual ABI
 const contractABI = [
-  {
-    inputs: [],
-    name: "stakeTokens",
-    outputs: [],
-    stateMutability: "payable",
-    type: "function",
-  },
-  {
-    inputs: [],
-    name: "withdrawStake",
-    outputs: [],
-    stateMutability: "nonpayable",
-    type: "function",
-  },
-  {
-    inputs: [],
-    name: "stakes",
-    outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
-    stateMutability: "view",
-    type: "function",
-  },
-  {
-    inputs: [{ internalType: "string", name: "name", type: "string" }],
-    name: "createInventory",
-    outputs: [],
-    stateMutability: "nonpayable",
-    type: "function",
-  },
-  {
-    inputs: [{ internalType: "uint256", name: "inventoryId", type: "uint256" }],
-    name: "deleteInventory",
-    outputs: [],
-    stateMutability: "nonpayable",
-    type: "function",
-  },
 ];
 
 window.onload = async () => {
